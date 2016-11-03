@@ -28,4 +28,8 @@ public:
     FizzBuzz();
 
     ~FizzBuzz();
+
+    bool IsFizz(unsigned int value);
+
+    bool IsBuzz(unsigned int value);
 };

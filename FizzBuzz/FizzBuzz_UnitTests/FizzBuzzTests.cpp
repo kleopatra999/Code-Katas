@@ -31,11 +31,52 @@ namespace FizzBuzz_UnitTests
     TEST_CLASS(FizzBuzzTests)
     {
     public:
-
-        TEST_METHOD(TestMethod1)
+        TEST_METHOD(Is3Fizz)
         {
-            // TODO: Your test code here
+            FizzBuzz fizzbuzz;
+            Assert::IsTrue(fizzbuzz.IsFizz(3));
         }
 
+        TEST_METHOD(Is5Fizz)
+        {
+            FizzBuzz fizzbuzz;
+            Assert::IsFalse(fizzbuzz.IsFizz(5));
+        }
+
+        TEST_METHOD(Is5Buzz)
+        {
+            FizzBuzz fizzbuzz;
+            Assert::IsTrue(fizzbuzz.IsBuzz(5));
+        }
+
+        TEST_METHOD(Is3Buzz)
+        {
+            FizzBuzz fizzbuzz;
+            Assert::IsFalse(fizzbuzz.IsBuzz(3));
+        }
+
+        TEST_METHOD(Is25Buzz)
+        {
+            FizzBuzz fizzbuzz;
+            Assert::IsTrue(fizzbuzz.IsBuzz(25));
+        }
+
+        TEST_METHOD(Is50Buzz)
+        {
+            FizzBuzz fizzbuzz;
+            Assert::IsTrue(fizzbuzz.IsBuzz(50));
+        }
+
+        TEST_METHOD(Is15Fizz)
+        {
+            FizzBuzz fizzbuzz;
+            Assert::IsTrue(fizzbuzz.IsFizz(15));
+        }
+
+        TEST_METHOD(Is30Fizz)
+        {
+            FizzBuzz fizzbuzz;
+            Assert::IsTrue(fizzbuzz.IsFizz(30));
+        }
     };
 }

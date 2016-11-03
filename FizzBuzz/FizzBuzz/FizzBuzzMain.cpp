@@ -21,9 +21,34 @@
 // 3. This notice may not be removed or altered from any source distribution.
 
 #include "stdafx.h"
+#include "FizzBuzz.h"
+#include <iostream>
 
 int main()
 {
+    FizzBuzz fizzbuzz;
+    for (unsigned int i = 1; i < 101; ++i)
+    {
+        auto fizz = fizzbuzz.IsFizz(i);
+        auto buzz = fizzbuzz.IsBuzz(i);
+
+        if (fizz && buzz)
+        {
+            std::wcout << L"FizzBuzz" << std::endl;
+        }
+        else if (fizz)
+        {
+            std::wcout << L"Fizz" << std::endl;
+        }
+        else if (buzz)
+        {
+            std::wcout << L"Buzz" << std::endl;
+        }
+        else
+        {
+            std::wcout << i << std::endl;
+        }
+    }
     return 0;
 }
 

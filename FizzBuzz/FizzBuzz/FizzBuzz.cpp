@@ -32,3 +32,17 @@ FizzBuzz::~FizzBuzz()
 {
 
 }
+
+bool FizzBuzz::IsFizz(unsigned int value)
+{
+    auto div = value / 3;
+    auto result = div * 3;
+    return result == value;
+}
+
+bool FizzBuzz::IsBuzz(unsigned int value)
+{
+    auto div = value / 5;
+    auto result = div * 5;
+    return result == value;
+}
