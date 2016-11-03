@@ -20,21 +20,16 @@
 //
 // 3. This notice may not be removed or altered from any source distribution.
 
-#include "stdafx.h"
-#include "CppUnitTest.h"
+#pragma once
 
-using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+#include <string>
 
-namespace FromRomanNumerals_UnitTests
-{		
-	TEST_CLASS(UnitTest1)
-	{
-	public:
-		
-		TEST_METHOD(TestMethod1)
-		{
-			// TODO: Your test code here
-		}
+class RomanNumerals
+{
+public:
+    RomanNumerals();
 
-	};
-}
+    ~RomanNumerals();
+
+    int Convert(const std::wstring& roman);
+};
