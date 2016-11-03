@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FromRomanNumerals", "FromRomanNumerals", "{A6AF8691-2086-48B5-9ED1-5841FAC3CE66}"
+	ProjectSection(SolutionItems) = preProject
+		FromRomanNumerals\Code-Kata.txt = FromRomanNumerals\Code-Kata.txt
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FromRomanNumerals", "FromRomanNumerals\FromRomanNumerals\FromRomanNumerals.vcxproj", "{708F4B59-805E-4DC0-B233-A3C2C934E049}"
 EndProject
