@@ -17,6 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FizzBuzz", "FizzBuzz", "{EF4254B5-1254-4853-BDB4-2E35B0B683F4}"
+	ProjectSection(SolutionItems) = preProject
+		FizzBuzz\Code-Kata.txt = FizzBuzz\Code-Kata.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FizzBuzz", "FizzBuzz\FizzBuzz\FizzBuzz.vcxproj", "{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FizzBuzz_UnitTests", "FizzBuzz\FizzBuzz_UnitTests\FizzBuzz_UnitTests.vcxproj", "{3A7100C3-B99D-48D7-BEED-E20E9B68499D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +50,22 @@ Global
 		{C3FE3090-71BA-46AB-BE79-A964B6F21063}.Release|x64.Build.0 = Release|x64
 		{C3FE3090-71BA-46AB-BE79-A964B6F21063}.Release|x86.ActiveCfg = Release|Win32
 		{C3FE3090-71BA-46AB-BE79-A964B6F21063}.Release|x86.Build.0 = Release|Win32
+		{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8}.Debug|x64.ActiveCfg = Debug|x64
+		{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8}.Debug|x64.Build.0 = Debug|x64
+		{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8}.Debug|x86.Build.0 = Debug|Win32
+		{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8}.Release|x64.ActiveCfg = Release|x64
+		{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8}.Release|x64.Build.0 = Release|x64
+		{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8}.Release|x86.ActiveCfg = Release|Win32
+		{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8}.Release|x86.Build.0 = Release|Win32
+		{3A7100C3-B99D-48D7-BEED-E20E9B68499D}.Debug|x64.ActiveCfg = Debug|x64
+		{3A7100C3-B99D-48D7-BEED-E20E9B68499D}.Debug|x64.Build.0 = Debug|x64
+		{3A7100C3-B99D-48D7-BEED-E20E9B68499D}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A7100C3-B99D-48D7-BEED-E20E9B68499D}.Debug|x86.Build.0 = Debug|Win32
+		{3A7100C3-B99D-48D7-BEED-E20E9B68499D}.Release|x64.ActiveCfg = Release|x64
+		{3A7100C3-B99D-48D7-BEED-E20E9B68499D}.Release|x64.Build.0 = Release|x64
+		{3A7100C3-B99D-48D7-BEED-E20E9B68499D}.Release|x86.ActiveCfg = Release|Win32
+		{3A7100C3-B99D-48D7-BEED-E20E9B68499D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +73,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{708F4B59-805E-4DC0-B233-A3C2C934E049} = {A6AF8691-2086-48B5-9ED1-5841FAC3CE66}
 		{C3FE3090-71BA-46AB-BE79-A964B6F21063} = {A6AF8691-2086-48B5-9ED1-5841FAC3CE66}
+		{92146810-4B43-4C7E-92FD-3CF2DCDE2AD8} = {EF4254B5-1254-4853-BDB4-2E35B0B683F4}
+		{3A7100C3-B99D-48D7-BEED-E20E9B68499D} = {EF4254B5-1254-4853-BDB4-2E35B0B683F4}
 	EndGlobalSection
 EndGlobal

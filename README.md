@@ -5,6 +5,7 @@ My personal Coding Dojo. Place for my code which solves 3rdParty Code-Katas.
 ## Code-Katas
 
 - From Roman Numerals [README](FromRomanNumerals/Code-Kata.txt)
+- FizzBuzz [README](FizzBuzz/Code-Kata.txt)
 
 ## License
 
