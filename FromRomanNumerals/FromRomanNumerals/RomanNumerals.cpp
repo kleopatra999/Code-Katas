@@ -38,10 +38,24 @@ RomanNumerals::~RomanNumerals()
 int RomanNumerals::Convert(const std::wstring& roman)
 {
     int decimalValue = 0;
-    for(unsigned int i = 0; i!= roman.length(); ++i)
+    for (unsigned int i = 0; i < roman.length(); ++i)
     {
-        wchar_t romanLiteral = roman[i];
-        decimalValue += ConvertRomanLiteral(romanLiteral);
+        auto currentRomanLiteral = roman[i];
+        auto currentDecimalValue = ConvertRomanLiteral(currentRomanLiteral);
+
+        if (i < roman.length() - 1)
+        {
+            auto nextRomanLiteral = roman[i+1];
+            auto nextDecimalValue = ConvertRomanLiteral(nextRomanLiteral);
+
+            if (nextDecimalValue > currentDecimalValue)
+            {
+                currentDecimalValue = nextDecimalValue - currentDecimalValue;
+                i = i + 1;
+            }
+        }
+
+        decimalValue += currentDecimalValue;
     }
     return decimalValue;
 }
