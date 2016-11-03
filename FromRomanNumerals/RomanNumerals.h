@@ -32,4 +32,7 @@ public:
     ~RomanNumerals();
 
     int Convert(const std::wstring& roman);
+
+private:
+    int ConvertRomanLiteral(wchar_t romanLiteral);
 };
