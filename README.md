@@ -6,6 +6,7 @@ My personal Coding Dojo. Place for my code which solves 3rdParty Code-Katas.
 
 - From Roman Numerals [README](FromRomanNumerals/Code-Kata.txt)
 - FizzBuzz [README](FizzBuzz/Code-Kata.txt)
+- PriorityQueue [README](PriorityQueue/Code-Kata.txt)
 
 ## Sources
 
