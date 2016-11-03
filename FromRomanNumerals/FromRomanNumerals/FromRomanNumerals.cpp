@@ -21,9 +21,23 @@
 // 3. This notice may not be removed or altered from any source distribution.
 
 #include "stdafx.h"
+#include "RomanNumerals.h"
+
+#include <iostream>
+#include <string>
 
 int main()
 {
+    std::wcout << L"Roman litarals: ";
+
+    std::wstring romanLiterals = L"";
+    std::wcin >> romanLiterals;
+
+    RomanNumerals num;
+    std::wcout << L"Decimal value: " << num.Convert(romanLiterals);
+    std::wcout << std::endl;
+
+
     return 0;
 }
 
