@@ -1,6 +1,6 @@
 # Code-Katas
 
-My personal Coding Dojo
+My personal Coding Dojo. Place for my code which solves 3rdParty Code-Katas.
 
 ## Code-Katas
 
