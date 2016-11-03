@@ -24,6 +24,12 @@
     <ClInclude Include="FizzBuzz.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IFizzBuzz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FizzBuzzVariation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -33,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FizzBuzz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FizzBuzzVariation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

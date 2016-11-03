@@ -24,12 +24,12 @@
 
 #include "IFizzBuzz.h"
 
-class FizzBuzz : public IFizzBuzz
+class FizzBuzzVariation : public IFizzBuzz
 {
 public:
-    FizzBuzz();
+    FizzBuzzVariation();
 
-    ~FizzBuzz();
+    ~FizzBuzzVariation();
 
     virtual bool IsFizz(unsigned int value) override;
 

@@ -35,5 +35,11 @@
     <ClCompile Include="FizzBuzzTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\FizzBuzz\FizzBuzzVariation.cpp">
+      <Filter>CodeUnderTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FizzBuzzVariationTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

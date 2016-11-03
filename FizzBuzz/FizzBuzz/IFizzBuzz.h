@@ -22,16 +22,10 @@
 
 #pragma once
 
-#include "IFizzBuzz.h"
-
-class FizzBuzz : public IFizzBuzz
+class IFizzBuzz
 {
 public:
-    FizzBuzz();
+    virtual bool IsFizz(unsigned int value) = 0;
 
-    ~FizzBuzz();
-
-    virtual bool IsFizz(unsigned int value) override;
-
-    virtual bool IsBuzz(unsigned int value) override;
+    virtual bool IsBuzz(unsigned int value) = 0;
 };

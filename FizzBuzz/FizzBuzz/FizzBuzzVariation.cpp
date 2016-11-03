@@ -20,18 +20,51 @@
 //
 // 3. This notice may not be removed or altered from any source distribution.
 
-#pragma once
+#include "stdafx.h"
+#include "FizzBuzzVariation.h"
 
-#include "IFizzBuzz.h"
+#include <string>
 
-class FizzBuzz : public IFizzBuzz
+FizzBuzzVariation::FizzBuzzVariation()
 {
-public:
-    FizzBuzz();
 
-    ~FizzBuzz();
+}
 
-    virtual bool IsFizz(unsigned int value) override;
+FizzBuzzVariation::~FizzBuzzVariation()
+{
 
-    virtual bool IsBuzz(unsigned int value) override;
-};
+}
+
+bool FizzBuzzVariation::IsFizz(unsigned int value)
+{
+    auto div = value / 3;
+    auto result = div * 3;
+
+    auto digits = std::to_wstring(value);
+    for (unsigned int i = 0; i != digits.length(); ++i)
+    {
+        if (digits[i] == '3')
+        {
+            return true;
+        }
+    }
+
+    return result == value;
+}
+
+bool FizzBuzzVariation::IsBuzz(unsigned int value)
+{
+    auto div = value / 5;
+    auto result = div * 5;
+
+    auto digits = std::to_wstring(value);
+    for (unsigned int i = 0; i != digits.length(); ++i)
+    {
+        if (digits[i] == '5')
+        {
+            return true;
+        }
+    }
+
+    return result == value;
+}
