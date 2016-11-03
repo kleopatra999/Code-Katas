@@ -4,7 +4,7 @@ My personal Coding Dojo
 
 ## Code-Katas
 
-- From Roman Numerals [README](Code-Katas/FromRomanNumerals/Code-Kata.txt)
+- From Roman Numerals [README](FromRomanNumerals/Code-Kata.txt)
 
 ## License
 
